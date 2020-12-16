@@ -21,10 +21,13 @@
     "@lpinca"
   ],
   "dependencies": {
-    "istanbul": "0.4.x",
-    "express": "4.x",
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "archiver": "0.14.x",
     "body-parser": "~1.12.3",
-    "archiver": "0.14.x"
+    "istanbul": "0.4.x",
+    "express": "4.x"
   },
   "devDependencies": {
     "mkdirp": "*",
